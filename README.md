@@ -32,3 +32,6 @@
 9. End Results
 
 # End Results
+- We get highest Accuracy with **Passive Agressive Classifier With Pipelined (BOW-TFIDF Transformer)** about 98.02% on test data. But when we analyse confusion matrix we have more number of fake news labeled as true news i.e. 58.
+- We get good Accuracy with **Logistic Regression with CountVectorizer (Bag-of-Words)** about 97.88% on test data. Even though the accuracy score is a bit lower, we have less fake news labeled as true news ie. only 41. 
+- Therefore, this model can be chosen for Submitting the actual test file because it seems to maximize the accuracy while minimizing the false negative rate!
